@@ -1,0 +1,14 @@
+{
+  "name": "hyperterminator",
+  "version": "1.0.0-beta.2",
+  "description": "Hyperterm theme for cybernetic organisms",
+  "main": "index.js",
+  "keywords": [
+    "hyperterm",
+    "hyperterm-theme",
+    "colors",
+    "terminator"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT"
+}
