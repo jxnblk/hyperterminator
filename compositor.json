@@ -1,0 +1,97 @@
+{
+  "name": "jxnblk/hyperterminator",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.19"
+  },
+  "title": "Hyperterminator",
+  "branch": "",
+  "style": {
+    "name": "Future",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.2em"
+    },
+    "alternativeText": {
+      "textTransform": "uppercase",
+      "fontWeight": 400,
+      "letterSpacing": "0.2em",
+      "opacity": 0.75
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    },
+    "layout": {
+      "centered": true,
+      "maxWidth": 1024,
+      "bannerHeight": "80vh"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/jxnblk/hyperterminator",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/hyperterminator",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "hyperterminator",
+      "subhead": "Hyperterm theme for cybernetic organisms",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "hyperterminator: Hyperterm theme for cybernetic organisms",
+          "url": ""
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "jxnblk",
+          "repo": "hyperterminator"
+        }
+      ],
+      "text": "v1.0.0-beta.3"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>H Y P E R T E R M I N A T O R</h1>\n\n<p></p>\n<p>MIT License</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/jxnblk/hyperterminator",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/jxnblk",
+          "text": "jxnblk"
+        }
+      ]
+    }
+  ]
+}
