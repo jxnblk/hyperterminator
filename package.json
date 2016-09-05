@@ -9,6 +9,10 @@
     "colors",
     "terminator"
   ],
+  "repository" : {
+    "type" : "git",
+    "url" : "git@github.com:jxnblk/hyperterminator.git"
+  },
   "author": "Brent Jackson",
   "license": "MIT"
 }
